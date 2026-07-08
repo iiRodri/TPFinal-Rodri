@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  background-color: rgb(202, 127, 46);
+  border-radius: 2rem;
+} 

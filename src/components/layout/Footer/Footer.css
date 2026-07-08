@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+footer > p{
+  margin: 1rem;
+}
+
+.Copyright{
+  text-decoration: underline;
+}
