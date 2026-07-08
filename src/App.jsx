@@ -13,7 +13,7 @@ import { ProductoFormContainer } from "./components/adminComponent/ProductFormCo
 
 import { Login } from "./components/Login/Login";
 import { PrivateRoute } from "./routes/PrivateRoute";
-
+import { ProductDelete } from "./components/adminComponent/ProductDelete";
 
 function App() {
   return (
@@ -44,7 +44,11 @@ function App() {
             path="/admin"
             element={
               <PrivateRoute>
+                    <h1 className="admin-title">
+                        Panel de Administración
+                    </h1>
                 <ProductoFormContainer />
+                <ProductDelete />
               </PrivateRoute>
             }
           />

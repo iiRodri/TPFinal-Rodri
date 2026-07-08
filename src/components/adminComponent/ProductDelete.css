@@ -1,0 +1,47 @@
+.delete-container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.delete-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delete-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+    margin-bottom: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.delete-name {
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 10px 16px;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-button:hover {
+    background-color: #b02a37;
+}
